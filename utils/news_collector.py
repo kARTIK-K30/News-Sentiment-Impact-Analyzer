@@ -5,7 +5,7 @@ from models.topic_detector import detect_topic
 from models.fake_news_detector import fake_probability
 
 
-API_KEY = "YOUR NEWSAPI KEY"
+API_KEY = "5fc50d269e3945c384b522204a6730e0"
 
 
 def fetch_news():
