@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn
+nltk
+spacy
+gensim
+matplotlib
+plotly
+streamlit
+yfinance
+newsapi-python
+beautifulsoup4
+requests
