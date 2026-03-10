@@ -1,6 +1,7 @@
+from streamlit_autorefresh import st_autorefresh
+import streamlit as st
 import yfinance as yf
 import plotly.express as px
-import datetime
 
 import sys
 import os
@@ -15,6 +16,8 @@ from utils.news_collector import fetch_news
 st.set_page_config(page_title="AI News Intelligence", layout="wide")
 
 st.title("🧠 AI News Intelligence Dashboard")
+# refresh every 60 seconds
+st_autorefresh(interval=120000, key="news_refresh")
 
 news = fetch_news()
 
